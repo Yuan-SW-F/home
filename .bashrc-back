@@ -77,7 +77,7 @@ export PATH=/MAKER/maker/exe/SNAP:$PATH
 #找到动态链接库的路径#LD_LIBRARY_PATH
 #找到静态库的路径#LIBRARY_PATH
 #
-alias cheng='echo hB8SfgUw;su chenglab'
+
 
 export PATH=$PIP/11.CNS:$PIP/11.CNS/script:$PATH
 export PATH=$PIP/callCEs:$PATH
