@@ -10,7 +10,8 @@ fi
 if [ $TERM="xterm-256color" ]
 then
     eval `dircolors ~/.dir_colors`
-    PS1='\[\e[1;35m\][\[\e[1;33m\]\u@\h \A \[\e[1;36m\]\w\[\e[1;35m\]]\[\e[1;31m\]\n\$ \[\e[0m\]'
+    PS1="\[\e[1;35m\][\[\e[1;33m\]\u@Yuan-SW-F $DATE \A \[\e[1;36m\]\w\[\e[1;35m\]]\[\e[1;31m\]\n\$ \[\e[0m\]"
+    #PS1='\[\e[1;35m\][\[\e[1;33m\]\u@\h \A \[\e[1;36m\]\w\[\e[1;35m\]]\[\e[1;31m\]\n\$ \[\e[0m\]'
 else
     LS_OPTIONS='--color'
     export LS_COLORS
