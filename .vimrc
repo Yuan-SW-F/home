@@ -20,7 +20,7 @@ func SetTitle()
 if &filetype == 'sh'
 call setline(1,"\#!/bin/bash")
 call append(line("."),"\# File Name: ".expand("%"))
-call append(line(".")+1,"\# Author  : ".system("whoami|tr -d '\n'").", 907569282@qq.com")
+call append(line(".")+1,"\# Author  : ".system("whoami|tr -d '\n'").", Yuan-SW-F, yuanswf@163.com")
 call append(line(".")+2,"\# Created Time: ".strftime("%Y-%m-%d %H:%M:%S"))
 call append(line(".")+3,"source ~/.bashrc")
 call append(line(".")+4,"")
@@ -53,7 +53,7 @@ elseif &filetype == "python"
 
 call setline(1,"\#!/usr/bin/env python")
 call append(line("."),"\# -*- coding: UTF-8 -*-")
-call append(line(".")+1, "\# Author: ".system("whoami|tr -d '\n'")." (Yuan-SW-F, yuanswf@163.com)")
+call append(line(".")+1, "\# Author: ".system("whoami|tr -d '\n'").", Yuan-SW-F, yuanswf@163.com")
 call append(line(".")+2, "\# Created Time: ".strftime("%Y-%m-%d %H:%M:%S"))
 call append(line(".")+3, "\# Example ".expand("%")."   ")
 call append(line(".")+4, "import sys, os, re")
