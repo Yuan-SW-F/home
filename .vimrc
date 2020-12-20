@@ -52,7 +52,6 @@ call append(line(".")+22,"exit;}")
 elseif &filetype == "python"
 
 call setline(1,"\#!/usr/bin/env python")
-"/public/agis/chengshifeng_group/fuyuan/pip-fuyuan/app/anaconda2/bin/python")
 call append(line("."),"\# -*- coding: UTF-8 -*-")
 call append(line(".")+1, "\# Author: ".system("whoami|tr -d '\n'")." (Yuan-SW-F, yuanswf@163.com)")
 call append(line(".")+2, "\# Created Time: ".strftime("%Y-%m-%d %H:%M:%S"))
