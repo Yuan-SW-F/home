@@ -31,22 +31,23 @@ fi
 export LS_OPTIONS
 
 ### PIP path ###
-Ypip=/Yuan/Ypip2.0
-export PATH=$Ypip/Ybin/bin:$PATH
-export PATH=$Ypip/Syntenic:$PATH
-export PATH=/Yuan/app/miniconda2/bin:$PATH
-export PATH=/Yuan/app/miniconda3/bin:$PATH
-export PATH=/Yuan/soft/ghostscript-9.53.3/bin:$PATH
-export PERL5LIB=$Ypip/Ybin/lib:$PERL5LIB
+Ypip=/Yuan #your work path
+Ypip2=$Yuan/Ypip2.0
+export PATH=$Ypip2/Ybin/bin:$PATH
+export PATH=$Ypip2/Syntenic:$PATH
+export PATH=$Ypip/app/miniconda2/bin:$PATH
+export PATH=$Ypip/app/miniconda3/bin:$PATH
+export PATH=$Ypip/soft/ghostscript-9.53.3/bin:$PATH
+export PERL5LIB=$Ypip2/Ybin/lib:$PERL5LIB
 
 
 #####bio sorftware #####
-export PATH=/Yuan/cbin:$PATH
-export PATH=/Yuan/sbin:$PATH
-export PATH=/Yuan/app/last-1145/bin:$PATH
-export PATH=/Yuan/soft/MCScanX:$PATH
-export PATH=/Yuan/soft/ncbi-blast-2.9.0/bin:$PATH
-export PATH=/Yuan/app/multiz-tba.012109/bin:$PATH
+export PATH=$Ypip/cbin:$PATH
+export PATH=$Ypip/sbin:$PATH
+export PATH=$Ypip/app/last-1145/bin:$PATH
+export PATH=$Ypip/soft/MCScanX:$PATH
+export PATH=$Ypip/soft/ncbi-blast-2.9.0/bin:$PATH
+export PATH=$Ypip/app/multiz-tba.012109/bin:$PATH
 #在PATH中找到可执行文件程序的路径。
 #gcc找到头文件的路径#C_INCLUDE_PATH
 #g++找到头文件的路径#CPLUS_INCLUDE_PATH
