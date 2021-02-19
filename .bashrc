@@ -32,14 +32,15 @@ export LS_OPTIONS
 
 ### PIP path ###
 Ypip=/Yuan #your work path
-Ypip2=$Yuan/Ypip2.0
+Ydb=$Ypip/database
+Ypip2=$Ypip/Ypip2.0
+
 export PATH=$Ypip2/Ybin/bin:$PATH
 export PATH=$Ypip2/Syntenic:$PATH
 export PATH=$Ypip/app/miniconda2/bin:$PATH
 export PATH=$Ypip/app/miniconda3/bin:$PATH
 export PATH=$Ypip/soft/ghostscript-9.53.3/bin:$PATH
 export PERL5LIB=$Ypip2/Ybin/lib:$PERL5LIB
-
 
 #####bio sorftware #####
 export PATH=$Ypip/cbin:$PATH
