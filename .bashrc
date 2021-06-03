@@ -67,18 +67,24 @@ export PATH=$abyss/git/PopLDdecay/bin:$PATH
 #找到静态库的路径#LIBRARY_PATH
 #MANPATH=/usr/local/texlive/2020/texmf-dist/doc/man
 #INFOPATH=/usr/local/texlive/2020/texmf-dist/doc/info
-export MANPATH=/usr/local/texlive/2020/texmf-dist/doc/man:$MANPATH.
-export INFOPATH=/usr/local/texlive/2020/texmf-dist/doc/info:$INFOPATH.
-export PATH=/usr/local/texlive/2020/bin/x86_64-linux:$PATH
+#export MANPATH=/usr/local/texlive/2020/texmf-dist/doc/man:$MANPATH.
+#export INFOPATH=/usr/local/texlive/2020/texmf-dist/doc/info:$INFOPATH.
+#export PATH=/usr/local/texlive/2020/bin/x86_64-linux:$PATH
+export PATH=$abyss/app/callCBs/multiz-tba.012109/bin:$PATH
+export PATH=$abyss/app/callCBs:$PATH
+export PATH=$abyss/app/cd-hit-v4.6.7-2017-0501:$PATH
+export PATH=$abyss/git/svtyper:$PATH
+export PATH=$abyss/git/PopLDdecay/bin:$PATH
 #to your PATH for current and future sessions.
+
 
 ###   alias   ###
 alias v='vim'
 alias vi='vim'
 alias vb="vim ~/.bashrc"
 alias sb='source ~/.bashrc'
-alias cb='cp ~/.bashrc /chenlab/abyss' # root 权限使用，勿动
-alias syb='cp /chenlab/abyss/.bashrc ~/.bashrc' # 用户同步root系统配置
+alias cb='cp ~/.bashrc /abyss/home' # root 权限使用，勿动
+alias cbs='cp /abyss/home/.bashrc ~/.bashrc' # 用户同步root系统配置
 alias wl='wc -l'
 alias l='ls -l -h'
 alias ll='ls -l'
